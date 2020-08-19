@@ -10,13 +10,18 @@ This project is based on the PASCAL VOC 2012 DATASET [link](http://host.robots.o
 The classes in the project include:
 
 >Person
+
 >Bird, cat, cow, dog, horse, sheep
+
 >Aeroplane, bicycle, boat, bus, car, motorbike, train
+
 >Bottle, chair, dining table, potted plant, sofa, tv/ monitor
+
 >Background
 
 
 In this project we have used the weights of  pretrained model (PSPNet). It has been converted into a set of model.json and a group of sharable bin files(4 files).
+
 Refer to this [documentation](https://huningxin.github.io/tfjs-converter/).
 
 ### Technologies Used:
@@ -32,12 +37,19 @@ Camera
 
 ### Steps to run the code:
 1.First install node.js [link](https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi)
+
 2.Then install npm by running [npm install](" ")
+
 3.Then create a react app by typing [npx create-react-app my-app](" ")
+
 4.Move to that repository by [cd my-app](" ")
+
 5.Then check if all are set up by runnning [npm start](" ")
+
 6.Clone this repository to your pc/laptop
+
 7.Open a suitable editor such as VSCode,Atom,etc which is preferred to you.
+
 8.Copy all the files according to the file structure shown below:
 
 
