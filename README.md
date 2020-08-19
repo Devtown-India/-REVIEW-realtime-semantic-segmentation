@@ -19,6 +19,8 @@ The classes in the project include:
 
 >Background
 
+![alt text]( "Classes")
+
 
 In this project we have used the weights of  pretrained model (PSPNet). It has been converted into a set of model.json and a group of sharable bin files(4 files).
 
@@ -52,7 +54,7 @@ Camera
 
 8.Copy all the files according to the file structure shown below:
 
-![alt text](https://github.com/ShapeAI/realtime-semantic-segmentation/blob/master/Hierarchy%20files.JPG "Logo Title Text 1")
+![alt text](https://github.com/ShapeAI/realtime-semantic-segmentation/blob/master/Hierarchy%20files.JPG "Hierarchy structure")
 
 9.Then install the dependencies of tensorflow js:
 [npm install @tensorflow/tfjs]
