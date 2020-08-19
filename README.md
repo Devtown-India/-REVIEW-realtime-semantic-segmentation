@@ -58,7 +58,6 @@ Camera
 
 9.Then install the dependencies of tensorflow js:
 [npm install @tensorflow/tfjs]
-
 [npm-install http-server -g]
 
 10.Then open the folder where the weights folder is there and open cmd and type [http-server -c1 --cors]
@@ -90,7 +89,7 @@ For this project I have used ngrok for deployment where it forwards the localhos
 Download this software [Ngrok](https://ngrok.com/download) and follow the first 3 steps on the page to set up the software. Next, while leaving your existing command prompt that is running npm start on, start another command prompt and enter the following:
 
 
-># Run the code on cmd while in the directory that has ngrok.exe
+>Run the code on cmd while in the directory that has ngrok.exe
 
 >ngrok http 3000
 
