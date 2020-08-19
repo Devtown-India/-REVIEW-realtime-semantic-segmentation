@@ -89,11 +89,12 @@ For this project I have used ngrok for deployment where it forwards the localhos
 
 Download this software [Ngrok](https://ngrok.com/download) and follow the first 3 steps on the page to set up the software. Next, while leaving your existing command prompt that is running npm start on, start another command prompt and enter the following:
 
-'''
-# Run the code on cmd while in the directory that has ngrok.exe
-ngrok http 3000
 
-'''
+># Run the code on cmd while in the directory that has ngrok.exe
+
+>ngrok http 3000
+
+
 Link to the existing project:[link](http://a81af381c92d.ngrok.io)
 
 Give access to your chrome website by going to this [link](chrome://flags/)
@@ -102,6 +103,7 @@ Enable the Insecure origins treated as secure and copy the link of the website t
 
 ## Contributors:
 ### KARTHIKEYAN JM 
+![alt text](https://github.com/ShapeAI/realtime-semantic-segmentation/blob/master/50882125.png "Contributor")
 
 ### SHAPE AI
 ![alt text](https://github.com/ShapeAI/realtime-semantic-segmentation/blob/master/69104283.jfif "Contributor")
