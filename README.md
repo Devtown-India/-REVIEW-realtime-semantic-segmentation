@@ -19,7 +19,7 @@ The classes in the project include:
 
 >Background
 
-![alt text]( "Classes")
+![alt text](https://github.com/ShapeAI/realtime-semantic-segmentation/blob/master/public/images/voccmap.png "Classes")
 
 
 In this project we have used the weights of  pretrained model (PSPNet). It has been converted into a set of model.json and a group of sharable bin files(4 files).
