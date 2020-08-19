@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Realtime Semantic Segmentation
+It is a web application that helps us to segment the objects in real world and helps us to classify the objects.
 
-## Available Scripts
+### Description:
+This project includes the segmentation and classification of  objects in real time using a web app . It helps us to identify the objects based on the color code that is assigned and helps us to identify the objects using the help of DeepLearning and Machine Learning techniques.
 
-In the project directory, you can run:
+### Dataset:
+This project is based on the PASCAL VOC 2012 DATASET [link](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar).The dataset involves 21 classes where 20 classes refer to various objects and the remaining referring to the background.Each class is assigned an unique color.
 
-### `npm start`
+The classes in the project include:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+>Person
+>Bird, cat, cow, dog, horse, sheep
+>Aeroplane, bicycle, boat, bus, car, motorbike, train
+>Bottle, chair, dining table, potted plant, sofa, tv/ monitor
+>Background
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+In this project we have used the weights of  pretrained model (PSPNet). It has been converted into a set of model.json and a group of sharable bin files(4 files).
+Refer to this [documentation](https://huningxin.github.io/tfjs-converter/).
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Technologies Used:
+1.React JS
+2.HTML
+3.CSS
+4.ML and DL(model)
+5.Tensorflow.js [refer](https://www.tensorflow.org/js)
 
-### `npm run build`
+Ngrok
+Camera
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Steps to run the code:
+1.First install node.js [link](https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi)
+2.Then install npm by running [npm install](" ")
+3.Then create a react app by typing [npx create-react-app my-app](" ")
+4.Move to that repository by [cd my-app](" ")
+5.Then check if all are set up by runnning [npm start](" ")
+6.Clone this repository to your pc/laptop
+7.Open a suitable editor such as VSCode,Atom,etc which is preferred to you.
+8.Copy all the files according to the file structure shown below:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
