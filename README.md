@@ -54,6 +54,53 @@ Camera
 
 ![alt text](https://github.com/ShapeAI/realtime-semantic-segmentation/blob/master/Hierarchy%20files.JPG "Logo Title Text 1")
 
+9.Then install the dependencies of tensorflow js:
+[npm install @tensorflow/tfjs]
+
+[npm-install http-server -g]
+
+10.Then open the folder where the weights folder is there and open cmd and type [http-server -c1 --cors]
+
+Once the command is executed the model is ready to be served to the tensorflow.js file  at http://127.0.0.1:8080.
+
+11.Enter [npm start] in the terminal.
+
+It opens a localhost with default port of 3000 where it runs our program.
+
+
+### Camera options:
+At default the program uses either the frontcamera or webcam of the laptop.
+
+We can use the rear camera by changing the facingMode in video constraints of the src/index.js file
+
+Update:
+
+>facingMode:"environment" 
+
+(Replace user by environment for rear camera)
+
+>Rearcamera-"environment" Frontcamera/webcam="user"
+
+### Deployment:
+
+For this project I have used ngrok for deployment where it forwards the localhost to live on net until the localhost is on.
+
+Download this software [Ngrok](https://ngrok.com/download) and follow the first 3 steps on the page to set up the software. Next, while leaving your existing command prompt that is running npm start on, start another command prompt and enter the following:
+
+'''
+# Run the code on cmd while in the directory that has ngrok.exe
+ngrok http 3000
+
+'''
+Link to the existing project:[link](http://a81af381c92d.ngrok.io)
+
+Give access to your chrome website by going to this [link](chrome://flags/)
+
+Enable the Insecure origins treated as secure and copy the link of the website to the text area and relaunch and then open chrome again and then give camera access and run the website and explore.
+
+## Contributors:
+### KARTHIKEYAN JM
+### SHAPE AI
 
 
 
