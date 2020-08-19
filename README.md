@@ -52,6 +52,9 @@ Camera
 
 8.Copy all the files according to the file structure shown below:
 
+Inline-style: 
+![alt text](https://github.com/ "Logo Title Text 1")
+
 
 
 
