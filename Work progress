@@ -1,0 +1,69 @@
+
+Work Progress:
+
+Project:Realtime Semantic Segmentation
+
+Start of internship:
+August 1,2020:
+   Collecting the information of datasets.
+
+August 2,2020:
+   For this project, I selected Pascal VOC 2012 Dataset and was preprocessing the images.
+  
+August 3,2020:
+    Tested the pretrained model of PSPNet with sample images.
+       
+August 4,2020:
+    Selecting the pretrained model and then converting to tensorflow converter to get the sharable bin files and model.json.
+    
+August 5-8 2020:
+    Studied about the Tensorflow js course in Coursera.
+  
+August 9 2020:
+      Tried to build the code with reactjs and tensorfowjs
+      
+August 10,2020:
+     Continuing the previous day works and referring youtube and medium posts
+     
+August 11,2020:
+      Trying to include the camera functionality in the application
+      
+August 12,2020:
+       Testing the react app with front cam/webcam alone for correctness and evaluation purposes.
+       
+August 13-15 2020:
+        Trying to work on camera functionalities to enable both front and back cameras.
+        
+August 16 2020:
+         Trying to test the app locally.
+         
+August 17 2020:
+         Tested the app with mobile using ngrok server 
+         
+August 18 2020:
+           Deployed in heroku and trying to test it.
+           
+August 19 2020:
+          Final testing and submission of project and waiting for review or feedback
+          
+         
+Difficulties/Inabilities during this project:
+1.Not able to include both front and back camera with buttons in react.
+2.Not able to deploy the model in heroku as it throws error when serving the model as it requires http server access but it runs fine on localhost.(ModelPromise is throwing error)
+3.Not able to run it on mobile since not able to serve the model as the model is in localhost.
+
+Ultimate problems:
+1.Model serving during deployment and running in mobile.
+2.Camera functionalities.
+
+Submission of project:
+19 Aug 2020
+
+I hope I did the best that I can and I could not able to sort out the problems that I have mentioned.Anyways thank you for providing me this opportunity and awaiting for your response and feedback.
+
+                                                                                 Thank you
+                                                                                                
+        
+    
+    
+    
