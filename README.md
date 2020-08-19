@@ -38,19 +38,20 @@ Camera
 ### Steps to run the code:
 1.First install node.js [link](https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi)
 
-2.Then install npm by running [npm install](" ")
+2.Then install npm by running [npm install]
 
-3.Then create a react app by typing [npx create-react-app my-app](" ")
+3.Then create a react app by typing [npx create-react-app my-app]
 
-4.Move to that repository by [cd my-app](" ")
+4.Move to that repository by [cd my-app]
 
-5.Then check if all are set up by runnning [npm start](" ")
+5.Then check if all are set up by runnning [npm start]
 
 6.Clone this repository to your pc/laptop
 
 7.Open a suitable editor such as VSCode,Atom,etc which is preferred to you.
 
 8.Copy all the files according to the file structure shown below:
+
 
 
 
