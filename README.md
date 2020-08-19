@@ -101,9 +101,10 @@ Give access to your chrome website by going to this [link](chrome://flags/)
 Enable the Insecure origins treated as secure and copy the link of the website to the text area and relaunch and then open chrome again and then give camera access and run the website and explore.
 
 ## Contributors:
-### KARTHIKEYAN JM
-### SHAPE AI
+### KARTHIKEYAN JM 
 
+### SHAPE AI
+![alt text](https://github.com/ShapeAI/realtime-semantic-segmentation/blob/master/69104283.jfif "Contributor")
 
 
 
