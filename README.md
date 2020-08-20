@@ -100,12 +100,24 @@ Give access to your chrome website by going to this [link](chrome://flags/)
 
 Enable the Insecure origins treated as secure and copy the link of the website to the text area and relaunch and then open chrome again and then give camera access and run the website and explore.
 
+To check out in heroku try:[link](https://realtime-semantic-segmentor.herokuapp.com/)
+
+(But its still in developing side but the ui and operations works whereas the segmentation map doesnt works.)
+
 ## Contributors:
 ### KARTHIKEYAN JM 
 ![alt text](https://github.com/ShapeAI/realtime-semantic-segmentation/blob/master/50882125.png "Contributor")
 
 ### SHAPE AI
 ![alt text](https://github.com/ShapeAI/realtime-semantic-segmentation/blob/master/69104283.jfif "Contributor")
+
+
+
+## Note:
+It is better to switch [use hardware accleration] option in google chrome settings to run if webgl is not running at normal chrome browser.
+
+
+
 
 
 
