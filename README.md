@@ -33,8 +33,6 @@ Refer to this [documentation](https://huningxin.github.io/tfjs-converter/).
 4.ML and DL(model)
 5.Tensorflow.js [refer](https://www.tensorflow.org/js)
 
-Ngrok
-Camera
 
 
 ### Steps to run the code:
