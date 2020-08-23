@@ -28,10 +28,15 @@ Refer to this [documentation](https://huningxin.github.io/tfjs-converter/).
 
 ### Technologies Used:
 1.React JS
+
 2.HTML
+
 3.CSS
+
 4.ML and DL(model)
-5.Tensorflow.js [refer](https://www.tensorflow.org/js)
+
+5.Tensorflow.js 
+[refer](https://www.tensorflow.org/js)
 
 
 
