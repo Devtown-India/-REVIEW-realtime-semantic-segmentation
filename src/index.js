@@ -1,9 +1,12 @@
+//Importing all the necessary packages and libraries
 import React from "react";
 import ReactDOM from "react-dom";
 import * as tf from '@tensorflow/tfjs';
 import "./index.css";
+// Setting the backend to use webgl as it requires webgl to run
 tf.setBackend('webgl');
 
+// Defining the colormap for the segmentation for each class
 const pascalvoc = [[ 0,0,0 ],[ 128,0,0 ],[ 0,128,0 ],
                     [ 128,128,0 ],[ 0,0,128 ],[ 128,0,128 ],
                     [ 0,128,128 ],[ 128,128,128 ],[ 64,0,0 ],
@@ -19,18 +22,18 @@ const pascalvoc = [[ 0,0,0 ],[ 128,0,0 ],[ 0,128,0 ],
                     [ 0,0,192 ],[ 128,0,192 ],[ 0,128,192 ],
                     [ 128,128,192 ],[ 64,0,64 ]];
 
-
+//loading the model with using http server locally in the localhost
 async function load_model() {
   const model = await tf.loadLayersModel("http://127.0.0.1:8080/model.json");
   return model;
 }
 
 const modelPromise = load_model();
-
+//Creating a React component
 class App extends React.Component {
-  videoRef = React.createRef();
-  canvasRef = React.createRef();
-
+  videoRef = React.createRef(); //Reference for video 
+  canvasRef = React.createRef(); // Reference for canvas
+// To mount all the services eg here in our app we have used video to be enabled either in front or back camera
   componentDidMount() {
     if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
       const webCamPromise = navigator.mediaDevices
@@ -58,7 +61,7 @@ class App extends React.Component {
         });
     }
   }
-
+// detects the segmentation of the video object in frames by detecting it and processing it
   detectFrame = (video, model) => {
       tf.engine().startScope();
       const predictions = model.predict(this.process_input(video));
@@ -68,7 +71,7 @@ class App extends React.Component {
       });
       tf.engine().endScope();
   };
-
+//It renders the frame and then preprocess to standardise the frame
   process_input(video_frame){
     const img = tf.browser.fromPixels(video_frame).toFloat();
     const scale = tf.scalar(255.);
@@ -78,6 +81,7 @@ class App extends React.Component {
     const batched = normalised.transpose([2,0,1]).expandDims();
     return batched;
   };
+//It gives the prediction and draws the segmentation map onto the canvas
     renderPredictions = async (predictions) => {
     const img_shape = [480, 480]
     const offset = 0;
@@ -113,7 +117,7 @@ class App extends React.Component {
     ctx.scale(1.5, 1.5);
     ctx.putImageData(out, 520, 60);
   };
-
+//Finally we render the app 
   render() {
     return (
       <div>
