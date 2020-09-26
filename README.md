@@ -119,7 +119,7 @@ To check out in heroku try:[link](https://realtime-semantic-segmentor.herokuapp.
 ## Note:
 It is better to switch [use hardware accleration] option in google chrome settings to run if webgl is not running at normal chrome browser.
 
-
+  
 
 
 
